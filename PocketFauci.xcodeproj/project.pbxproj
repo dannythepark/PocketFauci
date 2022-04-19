@@ -13,6 +13,10 @@
 		ACC14DE7280E79E40032AA30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC14DE5280E79E40032AA30 /* Main.storyboard */; };
 		ACC14DE9280E79E50032AA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC14DE8280E79E50032AA30 /* Assets.xcassets */; };
 		ACC14DEC280E79E50032AA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC14DEA280E79E50032AA30 /* LaunchScreen.storyboard */; };
+		ACC14DF4280E7A970032AA30 /* StateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14DF3280E7A970032AA30 /* StateData.swift */; };
+		ACC14DF6280E7BFE0032AA30 /* CoronaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14DF5280E7BFE0032AA30 /* CoronaData.swift */; };
+		ACC14DF8280F1B320032AA30 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14DF7280F1B320032AA30 /* DetailViewController.swift */; };
+		ACC14DFA280F264F0032AA30 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14DF9280F264F0032AA30 /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ACC14DE8280E79E50032AA30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC14DEB280E79E50032AA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACC14DED280E79E50032AA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC14DF3280E7A970032AA30 /* StateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateData.swift; sourceTree = "<group>"; };
+		ACC14DF5280E7BFE0032AA30 /* CoronaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaData.swift; sourceTree = "<group>"; };
+		ACC14DF7280F1B320032AA30 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ACC14DF9280F264F0032AA30 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				ACC14DDF280E79E40032AA30 /* AppDelegate.swift */,
 				ACC14DE1280E79E40032AA30 /* SceneDelegate.swift */,
+				ACC14DF3280E7A970032AA30 /* StateData.swift */,
+				ACC14DF5280E7BFE0032AA30 /* CoronaData.swift */,
+				ACC14DF9280F264F0032AA30 /* SplashScreenViewController.swift */,
 				ACC14DE3280E79E40032AA30 /* ViewController.swift */,
+				ACC14DF7280F1B320032AA30 /* DetailViewController.swift */,
 				ACC14DE5280E79E40032AA30 /* Main.storyboard */,
 				ACC14DE8280E79E50032AA30 /* Assets.xcassets */,
 				ACC14DEA280E79E50032AA30 /* LaunchScreen.storyboard */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACC14DE4280E79E40032AA30 /* ViewController.swift in Sources */,
+				ACC14DF4280E7A970032AA30 /* StateData.swift in Sources */,
+				ACC14DFA280F264F0032AA30 /* SplashScreenViewController.swift in Sources */,
 				ACC14DE0280E79E40032AA30 /* AppDelegate.swift in Sources */,
+				ACC14DF8280F1B320032AA30 /* DetailViewController.swift in Sources */,
 				ACC14DE2280E79E40032AA30 /* SceneDelegate.swift in Sources */,
+				ACC14DF6280E7BFE0032AA30 /* CoronaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
